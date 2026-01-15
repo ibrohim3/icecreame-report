@@ -1,7 +1,7 @@
 const { Router } = require("express")
 const route = Router()
-const { addOrder } = require("../controller/order.controller")
+const { addOrder, getAll } = require("../controller/order.controller")
 
 route.post("/", addOrder)
-
+route.get("/", getAll)
 module.exports = { route }

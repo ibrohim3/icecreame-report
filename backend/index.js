@@ -16,7 +16,7 @@ async function connetToDB() {
 }
 connetToDB()
 
-const PORT = process.env.PORT || 8000
+const PORT = process.env.PORT || 7777
 main.listen(PORT, () => {
     console.log(`Server shu portda ishga tushdi http://localhost:${PORT}`);
 })
