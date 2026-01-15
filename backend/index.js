@@ -20,3 +20,6 @@ const PORT = process.env.PORT || 8000
 main.listen(PORT, () => {
     console.log(`Server shu portda ishga tushdi http://localhost:${PORT}`);
 })
+
+const { route } = require("./router/order.route")
+main.use("/orders", route)
