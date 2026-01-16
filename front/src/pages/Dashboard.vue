@@ -1,9 +1,9 @@
 <template>
-  <section class="dashboard">Dashboard</section>
+  <section class="dashboard">
+    <h2>Maxsulot qo'shish</h2>
+  </section>
 </template>
-<script setup>
-console.log("dashboard");
-</script>
+<script setup></script>
 <style>
 .dashboard {
   margin-top: 40px;
